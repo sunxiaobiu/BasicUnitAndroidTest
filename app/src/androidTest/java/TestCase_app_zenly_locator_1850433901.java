@@ -1,0 +1,13 @@
+import android.animation.AnimatorSet;
+import androidx.test.runner.AndroidJUnit4;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@RunWith(AndroidJUnit4.class)
+public class TestCase_app_zenly_locator_1850433901 {
+   @Test
+   public void testCase() throws Exception {
+      AnimatorSet var1 = new AnimatorSet();
+      boolean var2 = var1.isRunning();
+   }
+}

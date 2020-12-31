@@ -1,0 +1,17 @@
+import android.content.Context;
+import android.content.pm.PackageManager;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.runner.AndroidJUnit4;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@RunWith(AndroidJUnit4.class)
+public class TestCase_absworkout_butt_homeworkout_fitness_loseweight__1687189094 {
+   @Test
+   public void testCase() throws Exception {
+      Context var2 = InstrumentationRegistry.getTargetContext();
+      PackageManager var3 = var2.getPackageManager();
+      String var1 = "android";
+      var3.setApplicationEnabledSetting(var1, 1, 1);
+   }
+}

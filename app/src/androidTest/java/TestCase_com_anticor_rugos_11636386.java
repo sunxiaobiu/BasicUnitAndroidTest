@@ -1,0 +1,16 @@
+import android.animation.TimeInterpolator;
+import android.transition.TransitionSet;
+import androidx.test.runner.AndroidJUnit4;
+import org.easymock.EasyMock;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@RunWith(AndroidJUnit4.class)
+public class TestCase_com_anticor_rugos_11636386 {
+   @Test
+   public void testCase() throws Exception {
+      TransitionSet var2 = new TransitionSet();
+      Object var1 = EasyMock.createMock(TimeInterpolator.class);
+      var2.setInterpolator((TimeInterpolator)var1);
+   }
+}

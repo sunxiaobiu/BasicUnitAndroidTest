@@ -1,0 +1,16 @@
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import androidx.test.runner.AndroidJUnit4;
+import org.easymock.EasyMock;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@RunWith(AndroidJUnit4.class)
+public class TestCase_010862F494B1F968314349B519AA35DE59000CFC8B5866DA7BF3C1E81A242945_710636169 {
+   @Test
+   public void testCase() throws Exception {
+      Object var1 = EasyMock.createMock(SensorEvent.class);
+      Sensor var2 = ((SensorEvent)var1).sensor;
+      int var3 = var2.getType();
+   }
+}

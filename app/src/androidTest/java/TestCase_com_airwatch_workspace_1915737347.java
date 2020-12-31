@@ -1,0 +1,19 @@
+import android.os.Handler;
+import android.os.HandlerThread;
+import android.os.Looper;
+import androidx.test.runner.AndroidJUnit4;
+import org.easymock.EasyMock;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@RunWith(AndroidJUnit4.class)
+public class TestCase_com_airwatch_workspace_1915737347 {
+   @Test
+   public void testCase() throws Exception {
+      Object var1 = EasyMock.createMock(Handler.class);
+      Looper var2 = ((Handler)var1).getLooper();
+      Thread var3 = var2.getThread();
+      HandlerThread var4 = (HandlerThread)var3;
+      int var5 = var4.getThreadId();
+   }
+}

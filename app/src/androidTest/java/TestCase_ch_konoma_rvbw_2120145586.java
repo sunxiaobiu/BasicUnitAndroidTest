@@ -1,0 +1,15 @@
+import android.database.Observable;
+import androidx.test.runner.AndroidJUnit4;
+import org.easymock.EasyMock;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@RunWith(AndroidJUnit4.class)
+public class TestCase_ch_konoma_rvbw_2120145586 {
+   @Test
+   public void testCase() throws Exception {
+      Object var2 = EasyMock.createMock(Observable.class);
+      Object var1 = null;
+      ((Observable)var2).unregisterObserver(var1);
+   }
+}

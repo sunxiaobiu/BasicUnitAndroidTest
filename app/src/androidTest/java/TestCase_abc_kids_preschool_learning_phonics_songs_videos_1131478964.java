@@ -1,0 +1,14 @@
+import android.graphics.drawable.StateListDrawable;
+import androidx.test.runner.AndroidJUnit4;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@RunWith(AndroidJUnit4.class)
+public class TestCase_abc_kids_preschool_learning_phonics_songs_videos_1131478964 {
+   @Test
+   public void testCase() throws Exception {
+      StateListDrawable var2 = new StateListDrawable();
+      boolean var1 = true;
+      var2.setVisible(var1, false);
+   }
+}

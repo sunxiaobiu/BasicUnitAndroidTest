@@ -1,0 +1,30 @@
+import android.app.Activity;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog.Builder;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+import com.example.android.testing.unittesting.basicunitandroidtest.MyActivity;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@RunWith(AndroidJUnit4.class)
+public class TestCase_01F43BBD70800267D46EDA936621C4DFFE292EBD59B3448689EBDE206501484E_441847523 {
+   @Rule
+   public ActivityTestRule mActivityRule;
+
+   @Test
+   public void testCase() throws Exception {
+      ActivityTestRule var2 = this.mActivityRule;
+      Activity var3 = var2.getActivity();
+      Builder var1 = new Builder(var3, 2132017501);
+      AlertDialog var4 = var1.create();
+      String var5 = "android";
+      var4.setTitle(var5);
+   }
+
+   public TestCase_01F43BBD70800267D46EDA936621C4DFFE292EBD59B3448689EBDE206501484E_441847523() {
+      ActivityTestRule var1 = new ActivityTestRule(MyActivity.class);
+      this.mActivityRule = var1;
+   }
+}

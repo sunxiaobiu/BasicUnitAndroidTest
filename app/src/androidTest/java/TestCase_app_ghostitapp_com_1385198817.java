@@ -1,0 +1,18 @@
+import android.telephony.PhoneNumberUtils;
+import androidx.test.runner.AndroidJUnit4;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@RunWith(AndroidJUnit4.class)
+public class TestCase_app_ghostitapp_com_1385198817 {
+   public static void testCase() throws Exception {
+      String var0 = "android";
+      String var1 = "android";
+      PhoneNumberUtils.formatNumberToE164(var1, var0);
+   }
+
+   @Test
+   public void staticTest() throws Exception {
+      testCase();
+   }
+}
