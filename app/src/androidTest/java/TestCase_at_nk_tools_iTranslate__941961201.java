@@ -16,6 +16,6 @@ public class TestCase_at_nk_tools_iTranslate__941961201 {
       Context var3 = InstrumentationRegistry.getTargetContext();
       Object var1 = EasyMock.createMock(Intent.class);
       Object var2 = EasyMock.createMock(BroadcastReceiver.class);
-      var3.sendOrderedBroadcast((Intent)var1, (String)null, (BroadcastReceiver)var2, (Handler)null, -1, (String)null, (Bundle)null);
+      var3.sendOrderedBroadcast((Intent)var1, (String)"android", (BroadcastReceiver)var2, (Handler)null, -1, (String)"android", (Bundle)null);
    }
 }

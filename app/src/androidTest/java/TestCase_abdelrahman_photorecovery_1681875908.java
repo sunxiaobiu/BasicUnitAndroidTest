@@ -12,6 +12,6 @@ public class TestCase_abdelrahman_photorecovery_1681875908 {
       Object var1 = EasyMock.createMock(String.class);
       Uri var2 = Uri.parse((String)var1);
       Builder var3 = var2.buildUpon();
-      var3 = var3.query((String)null);
+      var3 = var3.query((String)"android");
    }
 }

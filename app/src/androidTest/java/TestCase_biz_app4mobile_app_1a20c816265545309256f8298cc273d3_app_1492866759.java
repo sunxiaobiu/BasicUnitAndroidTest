@@ -17,6 +17,6 @@ public class TestCase_biz_app4mobile_app_1a20c816265545309256f8298cc273d3_app_14
       Object var2 = EasyMock.createMock(String.class);
       int var6 = var3.getIdentifier((String)var2, "xml", var5);
       XmlResourceParser var4 = var3.getXml(var6);
-      var6 = var4.getAttributeIntValue((String)null, "orientation-handset", 0);
+      var6 = var4.getAttributeIntValue((String)"android", "orientation-handset", 0);
    }
 }

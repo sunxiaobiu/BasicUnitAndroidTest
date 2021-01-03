@@ -9,6 +9,6 @@ public class TestCase_ad3iya_mohamed_jibril_1424102462 {
    public void testCase() throws Exception {
       Handler var2 = new Handler();
       Object var1 = null;
-      var2.removeCallbacks((Runnable)var1, (Object)null);
+      var2.removeCallbacks((Runnable)(new Runnable() {public void run() {}}), (Object)null);
    }
 }

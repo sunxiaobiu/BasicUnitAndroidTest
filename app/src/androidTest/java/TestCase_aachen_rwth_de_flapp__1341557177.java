@@ -10,6 +10,6 @@ public class TestCase_aachen_rwth_de_flapp__1341557177 {
       Handler var4 = new Handler();
       Object var1 = null;
       long var2 = 1L;
-      var4.postAtTime((Runnable)var1, var2);
+      var4.postAtTime((Runnable)(new Runnable() {public void run() {}}), var2);
    }
 }

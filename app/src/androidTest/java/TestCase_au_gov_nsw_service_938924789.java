@@ -10,6 +10,6 @@ public class TestCase_au_gov_nsw_service_938924789 {
    public void testCase() throws Exception {
       Object var2 = EasyMock.createMock(AttributeSet.class);
       String var1 = "android";
-      ((AttributeSet)var2).getAttributeResourceValue((String)null, var1, -1);
+      ((AttributeSet)var2).getAttributeResourceValue((String)"android", var1, -1);
    }
 }

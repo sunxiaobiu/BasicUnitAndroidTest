@@ -17,7 +17,7 @@ public class TestCase_5A66192E4508E0052850DDCA7EC71CF7151DEDA799F82D65D74853E920
       ActivityTestRule var2 = this.mActivityRule;
       Activity var3 = var2.getActivity();
       ProgressDialog var1 = new ProgressDialog(var3);
-      var1.setProgressNumberFormat((String)null);
+      var1.setProgressNumberFormat((String)"android");
    }
 
    public TestCase_5A66192E4508E0052850DDCA7EC71CF7151DEDA799F82D65D74853E920499E69_2030759934() {

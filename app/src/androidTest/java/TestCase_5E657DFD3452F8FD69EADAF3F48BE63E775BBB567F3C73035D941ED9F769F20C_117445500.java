@@ -11,7 +11,7 @@ public class TestCase_5E657DFD3452F8FD69EADAF3F48BE63E775BBB567F3C73035D941ED9F7
    public static void testCase() throws Exception {
       Object var0 = EasyMock.createMock(ViewGroup.class);
       Object var1 = null;
-      ViewCompat.postOnAnimation((View)var0, (Runnable)var1);
+      ViewCompat.postOnAnimation((View)var0, (Runnable)(new Runnable() {public void run() {}}));
    }
 
    @Test

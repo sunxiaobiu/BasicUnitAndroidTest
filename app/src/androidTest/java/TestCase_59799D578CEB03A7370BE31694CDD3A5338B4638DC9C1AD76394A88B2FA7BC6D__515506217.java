@@ -13,6 +13,6 @@ public class TestCase_59799D578CEB03A7370BE31694CDD3A5338B4638DC9C1AD76394A88B2F
       Object var2 = EasyMock.createMock(View.class);
       ViewPropertyAnimatorCompat var3 = ViewCompat.animate((View)var2);
       Object var1 = null;
-      var3.withEndAction((Runnable)var1);
+      var3.withEndAction((Runnable)(new Runnable() {public void run() {}}));
    }
 }

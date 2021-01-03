@@ -15,7 +15,7 @@ public class TestCase_ar_com_portalsalud_upcn__193802988 {
       String[] var4 = new String[1];
       Object var1 = EasyMock.createMock(Uri.class);
       Context var2 = InstrumentationRegistry.getTargetContext();
-      CursorLoader var3 = new CursorLoader(var2, (Uri)var1, var4, (String)null, (String[])null, (String)null);
+      CursorLoader var3 = new CursorLoader(var2, (Uri)var1, var4, (String)"android", (String[])null, (String)"android");
       Cursor var5 = var3.loadInBackground();
    }
 }

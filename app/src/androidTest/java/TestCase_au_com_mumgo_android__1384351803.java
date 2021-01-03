@@ -14,7 +14,7 @@ public class TestCase_au_com_mumgo_android__1384351803 {
       Object var0 = EasyMock.createMock(TextView.class);
       Object var1 = null;
       Object var2 = null;
-      Linkify.addLinks((TextView)var0, (Pattern)var1, (String)null, (MatchFilter)null, (TransformFilter)var2);
+      Linkify.addLinks((TextView)var0, (Pattern)var1, (String)"android", (MatchFilter)null, (TransformFilter)var2);
    }
 
    @Test

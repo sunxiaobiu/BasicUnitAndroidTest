@@ -12,6 +12,6 @@ public class TestCase_com_amazon_kindle_911997716 {
       Context var1 = InstrumentationRegistry.getTargetContext();
       DrmManagerClient var2 = new DrmManagerClient(var1);
       String var3 = "android";
-      var2.canHandle(var3, (String)null);
+      var2.canHandle(var3, (String)"android");
    }
 }

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 public class TestCase_aws_apps_usbDeviceEnumerator_501750353 {
    public static void testCase() throws Exception {
       Object var0 = EasyMock.createMock(Context.class);
-      File[] var1 = ContextCompat.getExternalFilesDirs((Context)var0, (String)null);
+      File[] var1 = ContextCompat.getExternalFilesDirs((Context)var0, (String)"android");
    }
 
    @Test

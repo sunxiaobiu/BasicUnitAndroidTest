@@ -14,7 +14,7 @@ public class TestCase_com_sonyericsson_extras_liveware_1148556690 {
    public void testCase() throws Exception {
       Object var2 = EasyMock.createMock(SQLiteDatabase.class);
       String[] var1 = new String[8];
-      Cursor var3 = ((SQLiteDatabase)var2).query("old_widget", var1, (String)null, (String[])null, (String)null, (String)null, (String)null);
+      Cursor var3 = ((SQLiteDatabase)var2).query("old_widget", var1, (String)"android", (String[])null, (String)"android", (String)"android", (String)"android");
       ContentQueryMap var5 = new ContentQueryMap(var3, "_id", false, (Handler)null);
       Map var4 = var5.getRows();
    }

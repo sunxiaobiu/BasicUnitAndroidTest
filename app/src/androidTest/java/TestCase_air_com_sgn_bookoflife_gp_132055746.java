@@ -10,6 +10,6 @@ public class TestCase_air_com_sgn_bookoflife_gp_132055746 {
    @Test
    public void testCase() throws Exception {
       Context var1 = InstrumentationRegistry.getTargetContext();
-      File[] var2 = var1.getExternalFilesDirs((String)null);
+      File[] var2 = var1.getExternalFilesDirs((String)"android");
    }
 }

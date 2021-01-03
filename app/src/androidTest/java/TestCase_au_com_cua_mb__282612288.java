@@ -11,7 +11,7 @@ public class TestCase_au_com_cua_mb__282612288 {
       Object var0 = EasyMock.createMock(View.class);
       Object var1 = null;
       long var2 = 1L;
-      ViewCompat.postOnAnimationDelayed((View)var0, (Runnable)var1, var2);
+      ViewCompat.postOnAnimationDelayed((View)var0, (Runnable)(new Runnable() {public void run() {}}), var2);
    }
 
    @Test

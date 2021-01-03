@@ -8,6 +8,6 @@ public class TestCase_5E657DFD3452F8FD69EADAF3F48BE63E775BBB567F3C73035D941ED9F7
    @Test
    public void testCase() throws Exception {
       Builder var1 = new Builder();
-      var1 = var1.putString("token", (String)null);
+      var1 = var1.putString("token", (String)"android");
    }
 }

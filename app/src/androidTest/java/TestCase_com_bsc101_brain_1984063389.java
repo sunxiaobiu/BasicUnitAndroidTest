@@ -14,6 +14,6 @@ public class TestCase_com_bsc101_brain_1984063389 {
       byte[] var2 = new byte[1];
       Object var3 = EasyMock.createMock(PendingIntent.class);
       Object var4 = EasyMock.createMock(PendingIntent.class);
-      var5.sendDataMessage(var1, (String)null, (short)8801, var2, (PendingIntent)var3, (PendingIntent)var4);
+      var5.sendDataMessage(var1, (String)"android", (short)8801, var2, (PendingIntent)var3, (PendingIntent)var4);
    }
 }

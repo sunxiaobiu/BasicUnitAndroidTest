@@ -19,6 +19,6 @@ public class TestCase_com_amazon_sellermobile_android__963637529 {
       Object var2 = EasyMock.createMock(UserHandle.class);
       String var3 = "android";
       Object var4 = null;
-      var5.sendOrderedBroadcastAsUser((Intent)var1, (UserHandle)var2, var3, (BroadcastReceiver)var4, (Handler)null, -1, (String)null, (Bundle)null);
+      var5.sendOrderedBroadcastAsUser((Intent)var1, (UserHandle)var2, var3, (BroadcastReceiver)var4, (Handler)null, -1, (String)"android", (Bundle)null);
    }
 }

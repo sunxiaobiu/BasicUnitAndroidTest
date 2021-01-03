@@ -16,6 +16,6 @@ public class TestCase_5ACC7934C85E60CF203196A04D0E1419D9BCC88C9732B56E84BA6A95EF
       Object var3 = EasyMock.createMock(PendingIntent.class);
       Object var1 = EasyMock.createMock(Context.class);
       Object var2 = EasyMock.createMock(Bundle.class);
-      ((PendingIntent)var3).send((Context)var1, 11, (Intent)null, (OnFinished)null, (Handler)null, (String)null, (Bundle)var2);
+      ((PendingIntent)var3).send((Context)var1, 11, (Intent)null, (OnFinished)null, (Handler)null, (String)"android", (Bundle)var2);
    }
 }

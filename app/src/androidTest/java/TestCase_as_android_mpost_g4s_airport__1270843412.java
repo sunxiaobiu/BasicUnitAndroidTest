@@ -13,6 +13,6 @@ public class TestCase_as_android_mpost_g4s_airport__1270843412 {
       String var1 = "android";
       String var2 = "android";
       Object var3 = EasyMock.createMock(PendingIntent.class);
-      var4.sendTextMessage(var1, (String)null, var2, (PendingIntent)var3, (PendingIntent)null);
+      var4.sendTextMessage(var1, (String)"android", var2, (PendingIntent)var3, (PendingIntent)null);
    }
 }

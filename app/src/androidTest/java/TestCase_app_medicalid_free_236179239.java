@@ -12,6 +12,6 @@ public class TestCase_app_medicalid_free_236179239 {
       String var1 = "android";
       Object var2 = null;
       Object var3 = null;
-      var4.sendMultipartTextMessage(var1, (String)null, (ArrayList)var2, (ArrayList)var3, (ArrayList)null);
+      var4.sendMultipartTextMessage(var1, (String)"android", (ArrayList)var2, (ArrayList)var3, (ArrayList)null);
    }
 }

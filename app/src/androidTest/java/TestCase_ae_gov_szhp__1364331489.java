@@ -20,7 +20,7 @@ public class TestCase_ae_gov_szhp__1364331489 {
       View var4 = var3.findViewById(2131230903);
       NavigationView var5 = (NavigationView)var4;
       Object var1 = null;
-      var5.postDelayed((Runnable)var1, 500L);
+      var5.postDelayed((Runnable)(new Runnable() {public void run() {}}), 500L);
    }
 
    public TestCase_ae_gov_szhp__1364331489() {

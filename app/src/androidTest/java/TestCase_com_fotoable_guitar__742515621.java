@@ -19,7 +19,7 @@ public class TestCase_com_fotoable_guitar__742515621 {
       Resources var4 = var3.getResources();
       Bitmap var1 = BitmapFactory.decodeResource(var4, 2130837639);
       byte[] var2 = var1.getNinePatchChunk();
-      NinePatch var5 = new NinePatch(var1, var2, (String)null);
+      NinePatch var5 = new NinePatch(var1, var2, (String)"android");
       Object var6 = EasyMock.createMock(Canvas.class);
       Object var7 = EasyMock.createMock(Rect.class);
       var5.draw((Canvas)var6, (Rect)var7);

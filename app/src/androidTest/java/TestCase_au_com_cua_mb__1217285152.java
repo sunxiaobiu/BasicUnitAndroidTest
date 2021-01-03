@@ -10,7 +10,7 @@ public class TestCase_au_com_cua_mb__1217285152 {
    public static void testCase() throws Exception {
       Object var0 = EasyMock.createMock(View.class);
       Object var1 = null;
-      ViewCompat.postOnAnimation((View)var0, (Runnable)var1);
+      ViewCompat.postOnAnimation((View)var0, (Runnable)(new Runnable() {public void run() {}}));
    }
 
    @Test

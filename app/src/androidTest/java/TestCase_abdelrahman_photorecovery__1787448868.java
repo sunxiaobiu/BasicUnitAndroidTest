@@ -9,6 +9,6 @@ public class TestCase_abdelrahman_photorecovery__1787448868 {
    public void testCase() throws Exception {
       Handler var2 = new Handler();
       Object var1 = null;
-      var2.postDelayed((Runnable)var1, 6000L);
+      var2.postDelayed((Runnable)(new Runnable() {public void run() {}}), 6000L);
    }
 }

@@ -16,7 +16,7 @@ public class TestCase_aang_ind_reefal_1439709760 {
       ContentResolver var4 = var3.getContentResolver();
       String[] var1 = new String[1];
       Object var2 = EasyMock.createMock(Uri.class);
-      Cursor var5 = var4.query((Uri)var2, var1, (String)null, (String[])null, (String)null);
+      Cursor var5 = var4.query((Uri)var2, var1, (String)"android", (String[])null, (String)"android");
       int var6 = var5.getColumnIndexOrThrow("_data");
    }
 }

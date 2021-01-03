@@ -14,6 +14,6 @@ public class TestCase_com_makerere_mukthru__267769016 {
       String var2 = "android";
       Object var3 = EasyMock.createMock(PendingIntent.class);
       Object var4 = EasyMock.createMock(PendingIntent.class);
-      var5.sendTextMessage(var1, (String)null, var2, (PendingIntent)var3, (PendingIntent)var4);
+      var5.sendTextMessage(var1, (String)"android", var2, (PendingIntent)var3, (PendingIntent)var4);
    }
 }

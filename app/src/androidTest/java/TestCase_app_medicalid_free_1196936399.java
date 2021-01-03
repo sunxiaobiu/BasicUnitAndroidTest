@@ -12,6 +12,6 @@ public class TestCase_app_medicalid_free_1196936399 {
       Object var3 = EasyMock.createMock(SQLiteDatabase.class);
       Object var1 = null;
       String var2 = "android";
-      ((SQLiteDatabase)var3).rawQueryWithFactory((CursorFactory)var1, var2, (String[])null, (String)null);
+      ((SQLiteDatabase)var3).rawQueryWithFactory((CursorFactory)var1, var2, (String[])null, (String)"android");
    }
 }

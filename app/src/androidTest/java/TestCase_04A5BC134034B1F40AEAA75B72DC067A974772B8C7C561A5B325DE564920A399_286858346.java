@@ -18,6 +18,6 @@ public class TestCase_04A5BC134034B1F40AEAA75B72DC067A974772B8C7C561A5B325DE5649
       Object var1 = EasyMock.createMock(Uri.class);
       ContentProviderClient var4 = var3.acquireUnstableContentProviderClient((Uri)var1);
       var1 = EasyMock.createMock(Bundle.class);
-      var4.call("grant_perms", (String)null, (Bundle)var1);
+      var4.call("grant_perms", (String)"android", (Bundle)var1);
    }
 }

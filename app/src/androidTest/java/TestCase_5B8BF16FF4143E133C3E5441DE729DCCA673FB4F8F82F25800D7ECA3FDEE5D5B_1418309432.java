@@ -10,6 +10,6 @@ public class TestCase_5B8BF16FF4143E133C3E5441DE729DCCA673FB4F8F82F25800D7ECA3FD
    public void testCase() throws Exception {
       Object var2 = EasyMock.createMock(RecyclerView.class);
       Object var1 = null;
-      ((RecyclerView)var2).removeCallbacks((Runnable)var1);
+      ((RecyclerView)var2).removeCallbacks((Runnable)(new Runnable() {public void run() {}}));
    }
 }

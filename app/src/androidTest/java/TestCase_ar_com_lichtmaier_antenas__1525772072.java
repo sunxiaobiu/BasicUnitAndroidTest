@@ -21,7 +21,7 @@ public class TestCase_ar_com_lichtmaier_antenas__1525772072 {
       View var4 = var3.findViewById(2131296369);
       ViewPropertyAnimatorCompat var5 = ViewCompat.animate(var4);
       Object var1 = null;
-      var5.withEndAction((Runnable)var1);
+      var5.withEndAction((Runnable)(new Runnable() {public void run() {}}));
    }
 
    public TestCase_ar_com_lichtmaier_antenas__1525772072() {

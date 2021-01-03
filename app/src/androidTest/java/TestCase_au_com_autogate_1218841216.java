@@ -13,6 +13,6 @@ public class TestCase_au_com_autogate_1218841216 {
       Object var2 = EasyMock.createMock(View.class);
       ViewPropertyAnimatorCompat var3 = ViewCompat.animate((View)var2);
       Object var1 = null;
-      var3.withStartAction((Runnable)var1);
+      var3.withStartAction((Runnable)(new Runnable() {public void run() {}}));
    }
 }

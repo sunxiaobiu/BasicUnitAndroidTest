@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 public class TestCase_5D58FD5D28956E451954D6B429A1A6D4A89D382C74E07941DCA0B32CF2256976__1666496438 {
    public static void testCase() throws Exception {
       Object var0 = EasyMock.createMock(Context.class);
-      File[] var1 = ContextCompat.getExternalFilesDirs((Context)var0, (String)null);
+      File[] var1 = ContextCompat.getExternalFilesDirs((Context)var0, (String)"android");
    }
 
    @Test

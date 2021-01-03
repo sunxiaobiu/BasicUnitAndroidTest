@@ -10,7 +10,7 @@ public class TestCase_59598B3CC854A920D83344205D73C83CEDFE1C39990816A1291E7D79D1
    public static void testCase() throws Exception {
       Object var0 = EasyMock.createMock(Handler.class);
       Object var1 = null;
-      Message.obtain((Handler)var0, (Runnable)var1);
+      Message.obtain((Handler)var0, (Runnable)(new Runnable() {public void run() {}}));
    }
 
    @Test

@@ -10,6 +10,6 @@ public class TestCase_ae_appfreeislamic_AbdulbasitwithEnglishMp3_816469163 {
    public void testCase() throws Exception {
       Object var2 = EasyMock.createMock(Toolbar.class);
       Object var1 = null;
-      ((Toolbar)var2).post((Runnable)var1);
+      ((Toolbar)var2).post((Runnable)(new Runnable() {public void run() {}}));
    }
 }

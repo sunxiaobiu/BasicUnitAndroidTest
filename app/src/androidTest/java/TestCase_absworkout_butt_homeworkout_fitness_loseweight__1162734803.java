@@ -15,6 +15,6 @@ public class TestCase_absworkout_butt_homeworkout_fitness_loseweight__1162734803
       Context var2 = InstrumentationRegistry.getTargetContext();
       ContentResolver var3 = var2.getContentResolver();
       Object var1 = EasyMock.createMock(Uri.class);
-      var3.call((Uri)var1, "getGOId", (String)null, (Bundle)null);
+      var3.call((Uri)var1, "getGOId", (String)"android", (Bundle)null);
    }
 }

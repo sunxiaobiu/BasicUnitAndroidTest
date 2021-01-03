@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 public class TestCase_abdelrahman_photorecovery_60244582 {
    public static void testCase() throws Exception {
       String var0 = "android";
-      Uri var1 = Uri.fromParts("package", var0, (String)null);
+      Uri var1 = Uri.fromParts("package", var0, (String)"android");
    }
 
    @Test

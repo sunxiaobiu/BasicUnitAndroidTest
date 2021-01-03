@@ -9,6 +9,6 @@ public class TestCase_abdelrahman_photorecovery__1716304330 {
    public void testCase() throws Exception {
       Handler var2 = new Handler();
       Object var1 = null;
-      var2.removeCallbacks((Runnable)var1);
+      var2.removeCallbacks((Runnable)(new Runnable() {public void run() {}}));
    }
 }

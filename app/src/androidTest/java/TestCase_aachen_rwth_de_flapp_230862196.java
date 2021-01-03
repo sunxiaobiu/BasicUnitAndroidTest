@@ -15,6 +15,6 @@ public class TestCase_aachen_rwth_de_flapp_230862196 {
       StorageManager var5 = (StorageManager)var4;
       String var1 = "android";
       Object var2 = null;
-      var5.mountObb(var1, (String)null, (OnObbStateChangeListener)var2);
+      var5.mountObb(var1, (String)"android", (OnObbStateChangeListener)var2);
    }
 }

@@ -11,6 +11,6 @@ public class TestCase_ae_gov_dcpetitions_mobile_iphone__1365596167 {
    public void testCase() throws Exception {
       Context var1 = InstrumentationRegistry.getTargetContext();
       SharedPreferences var2 = var1.getSharedPreferences("com.arellomobile.android.push.deviceid", 2);
-      String var3 = var2.getString("deviceid", (String)null);
+      String var3 = var2.getString("deviceid", (String)"android");
    }
 }

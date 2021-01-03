@@ -15,6 +15,6 @@ public class TestCase_5F30229649ADAE5C356FD9E77737F7F5B420AE96CCC57F048EF973623E
       MyService var3 = new MyService();
       Object var1 = EasyMock.createMock(Intent.class);
       Object var2 = null;
-      var3.sendOrderedBroadcast((Intent)var1, (String)null, (BroadcastReceiver)var2, (Handler)null, -1, (String)null, (Bundle)null);
+      var3.sendOrderedBroadcast((Intent)var1, (String)"android", (BroadcastReceiver)var2, (Handler)null, -1, (String)"android", (Bundle)null);
    }
 }

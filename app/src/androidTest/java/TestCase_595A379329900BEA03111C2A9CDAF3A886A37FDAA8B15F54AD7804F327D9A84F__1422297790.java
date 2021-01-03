@@ -12,6 +12,6 @@ public class TestCase_595A379329900BEA03111C2A9CDAF3A886A37FDAA8B15F54AD7804F327
    public void testCase() throws Exception {
       Context var1 = InstrumentationRegistry.getTargetContext();
       PackageManager var2 = var1.getPackageManager();
-      List var3 = var2.queryContentProviders((String)null, 0, 0);
+      List var3 = var2.queryContentProviders((String)"android", 0, 0);
    }
 }

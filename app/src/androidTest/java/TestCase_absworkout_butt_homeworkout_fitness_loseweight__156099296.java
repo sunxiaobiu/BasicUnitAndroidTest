@@ -15,6 +15,6 @@ public class TestCase_absworkout_butt_homeworkout_fitness_loseweight__156099296 
       String var5 = var1.getPackageName();
       int var6 = var2.getIdentifier("dyloadconfig", "xml", var5);
       XmlResourceParser var3 = var2.getXml(var6);
-      String var4 = var3.getAttributeValue((String)null, "pkgname");
+      String var4 = var3.getAttributeValue((String)"android", "pkgname");
    }
 }

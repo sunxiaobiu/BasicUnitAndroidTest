@@ -11,6 +11,6 @@ public class TestCase_ch_zem_scanarplus__1409804921 {
    public void testCase() throws Exception {
       Object var2 = EasyMock.createMock(ContentProviderClient.class);
       Object var1 = EasyMock.createMock(Uri.class);
-      ((ContentProviderClient)var2).delete((Uri)var1, (String)null, (String[])null);
+      ((ContentProviderClient)var2).delete((Uri)var1, (String)"android", (String[])null);
    }
 }

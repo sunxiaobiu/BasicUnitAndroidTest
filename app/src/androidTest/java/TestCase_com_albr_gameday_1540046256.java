@@ -15,6 +15,6 @@ public class TestCase_com_albr_gameday_1540046256 {
       Object var1 = EasyMock.createMock(BroadcastReceiver.class);
       Object var2 = EasyMock.createMock(IntentFilter.class);
       Object var3 = null;
-      var4.registerReceiver((BroadcastReceiver)var1, (IntentFilter)var2, (String)null, (Handler)var3);
+      var4.registerReceiver((BroadcastReceiver)var1, (IntentFilter)var2, (String)"android", (Handler)var3);
    }
 }
