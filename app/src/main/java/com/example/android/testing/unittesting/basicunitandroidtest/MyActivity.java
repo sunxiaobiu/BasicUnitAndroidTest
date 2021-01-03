@@ -17,6 +17,7 @@
 package com.example.android.testing.unittesting.basicunitandroidtest;
 
 import android.app.Activity;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.util.Pair;
 import android.view.View;
@@ -40,6 +41,7 @@ public class MyActivity extends Activity {
     boolean mIsHistoryEmpty = true;
     private TextView mHistoryTextView;
     private DateFormat mSimpleDateFormatter;
+    private MyReceiver myReceiver;
 
     public Test<AugString> mActivityRule = new Test<>(AugString.class);
 
@@ -66,6 +68,8 @@ public class MyActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        myReceiver = new MyReceiver();
+        this.registerReceiver(myReceiver, new IntentFilter("android.intent.action.myreceiver"));
 
         try {
             testException();
